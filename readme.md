@@ -64,11 +64,9 @@ This README explains what FoxHash does, its main advantages and limitations, rec
 
 The interactive application will display a packing summary and print the reveal command. Example of the reveal command format:
 
-@@@
+```
 python packed_script.py -fs "your-seed-here"
-@@@
-
-> Note: The `@@@` markers above are used as code-fence placeholders in this README. Replace them with standard code fences when converting or rendering if needed.
+```
 
 ### 2) Running a packed script
 
@@ -80,9 +78,9 @@ python packed_script.py -fs "your-seed-here"
 
 Example recovery command (format shown above):
 
-@@@
+```
 python packed_script.py -fs "your-seed-here"
-@@@
+```
 
 ### 4) Operational behaviors
 
@@ -126,3 +124,4 @@ If you would like a corporate-friendly version of this README or a professionall
 For questions, feature requests, or security concerns, please open an issue on the project repository or submit a pull request with proposed changes.
 
 ---
+
